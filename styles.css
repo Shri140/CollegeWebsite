@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffbfb;
+}
+
+h1{
+ display: inline-block;
+}
+header{
+    height: 120px;
+ 
+}
+img{
+    display: inline;
+    float: left;
+   
+
+}
+img:hover{
+   transform: scale(1.1);
+   opacity: 0.97;
+}
+
+header {
+    background-color: #950401;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #f0b0b0;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+nav a {
+    color: #790202;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-size: medium;
+}
+
+section{
+    padding-left: 22px;
+    margin: 20px;
+}
+
+.section1 {
+    margin: 20px;
+    padding: 22px;
+    padding-bottom: 0px;
+}
+.section2{
+    margin: 60px 20px 20px 20px;
+    padding: 22px;
+    padding-left: 10px;
+}
+
+
+footer {
+    background-color: #5f0202;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+a:hover{
+    color: brown;
+}
+
+p{
+    font-family:sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+i{
+    margin-right: 10px;
+
+}
+
+h4{
+opacity: 0.7;
+font: 1em sans-serif;
+}
+.icon{
+    color:#f0b0b0;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+.icon:hover{
+    color: #fff;
+}
+
+ul {
+    --icon-size: .8em;
+    --gutter: .5em;
+    padding: 0 0 0 var(--icon-size);
+  }
+  
+  ul li {
+    padding-left: var(--gutter);
+    font-size: 1.2rem;
+    line-height: 1.29;
+  }
+  
+  
+  ul li::marker {
+    content: "\f25a"; /* FontAwesome Unicode */
+    font-weight: bold;
+    font-size: 200%;
+    color: #950401;
+    font-family: FontAwesome;
+    font-size: var(--icon-size);
+  }
+
+  .btn1{
+    float: right;
+    font-size: 40px;
+    position: relative;
+    color: #fff;
+    margin-top: 17px;
+    opacity: 0.8;
+  }
+
+  .btn1:hover{
+    color: #fff;
+    opacity: 1;
+  }
+
+  h2{
+    color: #950401;
+  }
+  table{
+   padding: 15px;
+  }
+  
+  .videos{
+    background-color: #fff;
+    margin-left: 0;
+    margin-right: 0;
+  }
